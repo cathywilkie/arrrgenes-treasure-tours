@@ -24,21 +24,35 @@ html {
 
 .nav a {
   color: #fff;
+  outline-color: #ffe0c7;
   text-decoration: none;
 }
 
 .nav a span {
   border-bottom: .3rem solid #bea59b;
+  outline-color: #ffe0c7;
 }
 
 .nav a:hover span,
 .nav a:focus span {
   border-bottom-color: #fff;
+  outline-color: #ffe0c7;
+}
+
+.nav a:hover,
+.nav a:focus {
+  background-color: #fff;
+  color: #533806;
 }
 
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #522806;
+}
+
+.banner h2 {
+  outline-color: #fff;
 }
 
 .card {
@@ -51,17 +65,24 @@ html {
   background-color: #bea59b;
   border-color: #bea59b;
   color: #522806;
+  outline-color: #964141;
 }
 
 .btn-light:hover,
 .btn-light:focus {
   background-color: #522806;
   border-color: #522806;
+  outline-color: #ffcaca;
 }
 
 .btn-banner {
   border-color: #bea59b;
   color: #fff;
+  outline-color: #662424;
+}
+
+.btn-content a:focus {
+  outline-color: #fff;
 }
 
 .btn-banner:hover,
@@ -69,11 +90,12 @@ html {
   background-color: #bea59b;
   border-color: #fff;
   color: #522806;
+  outline-color: #964141;
 }
 
 .footer {
   background-color: #522806;
-  border-top: .3rem solid #bea59b;
+  border-top: .3rem solid #a69bbe;
   color: #fff;
 }
 
